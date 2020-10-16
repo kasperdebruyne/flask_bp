@@ -1,4 +1,4 @@
-from . import create_app
+from app import create_app
 
 # for prod
 from dotenv import load_dotenv
