@@ -1,6 +1,6 @@
 from flask import Flask,Blueprint
 
-from .views import main
+from .main.views import main
 
 def create_app(config_file="config.py"):
     app = Flask(__name__)
